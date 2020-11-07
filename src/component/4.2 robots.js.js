@@ -13,19 +13,19 @@ export const robots = [
   },
   {
     id: 3,
-    name: 'Clementine',
+    name: 'Clementine Bauch',
     username: 'Samantha',
     email: 'Nathan@yesenia.net'
   },
   {
     id: 4,
-    name: 'Patricia ',
+    name: 'Patricia Lebsack',
     username: 'Karianne',
     email: 'Julianne.OConner@kory.org'
   },
   {
     id: 5,
-    name: 'Chelsey ',
+    name: 'Chelsey Dietrich',
     username: 'Kamren',
     email: 'Lucio_Hettinger@annie.ca'
   },

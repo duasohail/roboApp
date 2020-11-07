@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import Cardlist from './component/cardlist';
 import 'tachyons';
 import reportWebVitals from './reportWebVitals';
+import App from './component/App';
 import {robots} from './component/4.2 robots.js';
+
 
 ReactDOM.render(
   <div className="row justify-content-center bg-dark align-items-center">
     <div className="tc bg-dark col-12 shadow mb-4">
       <h1 className="pb-3 pt-3 light-green" >ROBOFRIENDS</h1>
     </div>
-    <Cardlist robots={robots}/>
+   <App />
   </div>,
   document.getElementById('root')
 );
